@@ -1,16 +1,16 @@
 @font-face{
     font-family: "HomeChristmas";
-    src: url('/fonts/HomeChristmas/Home\ Christmas.otf');
+    src: url('fonts/HomeChristmas/Home\ Christmas.otf');
 }
 
 @font-face {
     font-family: "MilkMango";
-    src: url('/fonts/MilkMango/Milk\ Mango.otf');
+    src: url('fonts/MilkMango/Milk\ Mango.otf');
 }
 
 @font-face {
     font-family: "KGRed";
-    src: url('/fonts/KGRed/KGRedHands.ttf');
+    src: url('fonts/KGRed/KGRedHands.ttf');
 }
 
 
