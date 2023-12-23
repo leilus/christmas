@@ -50,7 +50,7 @@ function getPresent(element){
     case 'giftButton1':
       document.getElementById("heart1").style.display = "block";
       document.getElementById("giftButton1").innerHTML = "Unlocked!";
-      document.getElementById("bubbleTea").src = "/img/bubble_teaClicked.png";
+      document.getElementById("bubbleTea").src = "img/bubble_teaClicked.png";
       setTimeout(function(){
         document.getElementById("heart1").style.display = "none";
       }, 800)
@@ -58,7 +58,7 @@ function getPresent(element){
     case 'giftButton2':
       document.getElementById("heart2").style.display = "block";
       document.getElementById("giftButton2").innerHTML = "Unlocked!";
-      document.getElementById("keyboard").src = "/img/keyboardClicked.png";
+      document.getElementById("keyboard").src = "img/keyboardClicked.png";
       
       setTimeout(function(){
         document.getElementById("heart2").style.display = "none";
@@ -74,5 +74,5 @@ function getPresent(element){
 }
 
 function goToNextPage(){
-  window.location.href = "http://127.0.0.1:5500/wishes.html";
+  window.location.href = "wishes.html";
 }
