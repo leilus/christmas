@@ -52,6 +52,8 @@ function getPresent(element){
       document.getElementById("giftButton1").innerHTML = "Unlocked!";
       document.getElementById("bubbleTea").src = "img/bubble_teaClicked.png";
       document.getElementById("code1").style.display = "block";
+      var audio = document.getElementById("audio1");
+        audio.play();
       setTimeout(function(){
         document.getElementById("heart1").style.display = "none";
       }, 800)
@@ -61,7 +63,8 @@ function getPresent(element){
       document.getElementById("giftButton2").innerHTML = "Unlocked!";
       document.getElementById("keyboard").src = "img/keyboardClicked.png";
       document.getElementById("code2").style.display = "block";
-      
+      var audio = document.getElementById("audio2");
+        audio.play();
       setTimeout(function(){
         document.getElementById("heart2").style.display = "none";
       }, 800)
@@ -78,3 +81,4 @@ function getPresent(element){
 function goToNextPage(){
   window.location.href = "wishes.html";
 }
+

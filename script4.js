@@ -12,4 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function showImage(){
     document.getElementById("minion").style.display = "block";
+    var audio = document.getElementById("audio");
+    audio.play();
 }
