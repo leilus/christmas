@@ -83,8 +83,24 @@ body{
 }
 
 .first_item p{
-    font-family: Cream Cake;
-    font-size: 40px;
+    font-family: MilkMango;
+    font-size: 22px;
+}
+
+.first_item #code1{
+    font-family: MilkMango;
+    padding: 10px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+.second_item #code2{
+    font-family: MilkMango;
+    padding: 10px;
+    font-size: 12px;
+    color: red;
+    display: none;
 }
 
 .second_item p{
@@ -92,6 +108,8 @@ body{
     font-size: 22px;
     padding: 5px;
 }
+
+
 
 .second_item{
     display: flex;
@@ -127,14 +145,30 @@ body{
 }
 
 .content button{
-    color: #ae9a8d;
-    font-size: 20px;
-    font-family: MilkMango;
+    background-image: linear-gradient(to right, #fd636a, #943e41, #422223, #2f1315);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
     width: 250px;
-    padding: 10px;
-    border-radius: 40px;
-    border: none;
+    font-size: 16px;
+    font-family: Milk Mango;
+    color: #fff;
     cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.content button:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .container button{

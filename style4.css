@@ -35,8 +35,7 @@ main .item{
 
 main{
     display: flex;
-    flex: 0 0 33.33%;
-    animation: scrollAnimation 20s linear 1;
+    animation: scrollAnimation 17s linear 1;
     animation-delay: 0.5s;
     white-space: nowrap;
 }
@@ -46,7 +45,7 @@ main{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(100%));
+        transform: translateX(calc(-100%));
         display: none;
     }
 }
@@ -57,8 +56,19 @@ main{
     justify-content: center;
     align-items: center;
     display: none;
+    flex-direction: column;
 }
 
 .container p {
     font-family: KGRed;
+}
+
+.container img{
+    display: none;
+   
+}
+
+.container p a{
+    color: rgb(191, 20, 20);
+    cursor: pointer;
 }

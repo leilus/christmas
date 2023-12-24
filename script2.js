@@ -51,6 +51,7 @@ function getPresent(element){
       document.getElementById("heart1").style.display = "block";
       document.getElementById("giftButton1").innerHTML = "Unlocked!";
       document.getElementById("bubbleTea").src = "img/bubble_teaClicked.png";
+      document.getElementById("code1").style.display = "block";
       setTimeout(function(){
         document.getElementById("heart1").style.display = "none";
       }, 800)
@@ -59,6 +60,7 @@ function getPresent(element){
       document.getElementById("heart2").style.display = "block";
       document.getElementById("giftButton2").innerHTML = "Unlocked!";
       document.getElementById("keyboard").src = "img/keyboardClicked.png";
+      document.getElementById("code2").style.display = "block";
       
       setTimeout(function(){
         document.getElementById("heart2").style.display = "none";

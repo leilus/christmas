@@ -9,3 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+function showImage(){
+    document.getElementById("minion").style.display = "block";
+}

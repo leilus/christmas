@@ -113,3 +113,29 @@ body{
     display: none;
 }
 
+.container_items #secondButton{
+    background-image: linear-gradient(to right, #fd636a, #943e41, #422223, #2f1315);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+    width: 150px;
+    font-size: 16px;
+    font-family: Milk Mango;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.container_items #secondButton:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
