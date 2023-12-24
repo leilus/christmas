@@ -83,7 +83,7 @@ body{
     background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
     width: 200px;
     font-size: 17px;
-    font-family: Milk Mango;
+    font-family: MilkMango;
     color: #fff;
     cursor: pointer;
     margin: 10px;
@@ -117,7 +117,7 @@ body{
     background-image: linear-gradient(to right, #fd636a, #943e41, #422223, #2f1315);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
     width: 150px;
     font-size: 16px;
-    font-family: Milk Mango;
+    font-family: MilkMango;
     color: #fff;
     cursor: pointer;
     margin: 10px;
