@@ -22,7 +22,7 @@ function showPage(){
     document.getElementById("loader").style.display = "none";
 }
 
-var countdownDate = new Date("Jan 15, 2024 00:00:00").getTime();
+var countdownDate = new Date("Jan 15, 2024 18:00:00").getTime();
 
 var x = setInterval(function(){
     var nowTime = new Date().getTime();
