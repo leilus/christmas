@@ -39,9 +39,14 @@ var x = setInterval(function(){
   if (distanceTime < 0) {
     clearInterval(x);
     document.getElementById("timerButton").innerHTML = "GET PRESENT";
+
   }
 }, 1000);
 
+
+function goToNextSite(){
+  window.location.href = "prezent_urodzinowy.html";
+}
 
 function getPresent(element){
   var giftButton = element.id;

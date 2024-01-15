@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezent urodzinowy</title>
+    <link rel="stylesheet" href="style5.css">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script>
+        var myVar;
+            function myFunction(){
+                myVar = setTimeout(showPage, 1000);
+    
+            }
+            function showPage(){
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("wishes").style.display = "block";
+            }
+            
+    </script>
+</head>
+<div id="loader" class="loader">
+    <img src="img/jumping_cat.gif">
+</div>
+<body onload="myFunction()">
+    <h1 id="wishes">Happy Birthday!</h1>
+    <div class="main">
+        <img src="img/kuromi.png">
+        <p>Miłoszku! Z okazji urodzinek, dostajesz prezent nie tylko ode mnie, lecz od reszty ekipy! Kinga, Mikołaj i Paweł oraz ja złożyliśmy się aby ci kupić superowego bundle z Valorant!
+            <br><br>Odblokujesz go już... jutro!<br><br>Mam nadzieję, że spodoba ci się taki prezent<3
+        </p>
+        <p>No i czeka sekretna niespodzianka... dowiesz się... kiedyś.</p>
+    </div>
+    <video src="img/huh-cat.mp4" autoplay loop></video>
+</body>
+</html>
